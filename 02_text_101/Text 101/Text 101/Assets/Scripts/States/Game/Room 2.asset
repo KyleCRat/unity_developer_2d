@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e340a98e829564e8b05c14a33b9db9, type: 3}
+  m_Name: Room 2
+  m_EditorClassIdentifier: 
+  storyText: 'You''ve entered the Blue Door.
+
+
+    Welcome to Room Two.
+
+
+    Do you like room two? It''s nice right? A lot like room 1, but not quite.
+
+
+    Would you like to stay in room 2? Or Go back to Room 1?
+
+
+    Oh, well you didn''t Unlock the blue door when you came through. Go to room 3?
+
+
+    1: Go to Room 3'
+  nextStates:
+  - {fileID: 11400000, guid: 1ef9a2d2066089446833ccc9dd7d5c58, type: 2}

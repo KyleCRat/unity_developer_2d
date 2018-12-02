@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e340a98e829564e8b05c14a33b9db9, type: 3}
+  m_Name: Game Over
+  m_EditorClassIdentifier: 
+  storyText: 'You Loose, You shouldn''t play Aventure games if you don''t wan tto
+    adventure.
+
+
+    1: Quit
+
+    2: Play Again'
+  nextStates:
+  - {fileID: 11400000, guid: b7d0d79841d9b244996658f51a0473e2, type: 2}
+  - {fileID: 11400000, guid: 3a774e6ceee21ca4594ca94f50c03bc0, type: 2}
